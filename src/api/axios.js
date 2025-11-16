@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://railway.com/project/8d07b58a-6d29-4d9a-b0a8-2a625ef80ec8/service/9fc835c3-068f-4ba5-ba13-c7ce370e7fc9?environmentId=f5492063-6bf8-40f4-b24a-00675e03731a&id=f2255314-585b-46e1-b0f7-d892658310be#deploy';
+const API_URL = 'https://room-yx3v.onrender.com';
 const axiosInstance = axios.create({
   baseURL: API_URL,
   headers: {
