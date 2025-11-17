@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://room-ng3y.onrender.com';
+const API_URL = 'https://room-ng3y.onrender.com/api';
 const axiosInstance = axios.create({
   baseURL: API_URL,
   headers: {
